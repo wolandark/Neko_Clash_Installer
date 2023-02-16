@@ -66,13 +66,13 @@ done
 if [[ -d nekoray ]]; then
     cd nekoray || return
     sudo ./launcher
-    echo "launched"
+    echo "Nekoray Launched"
 fi
 
 if [[ -d clash ]]; then
     cd clash || return
-    ./cfw
-    echo "launched"
+    ./cfw &
+    echo "Clash Launched"
 fi
 
 echo -e "\033[7;032mThe Script is done! You can now launch your client. For nekoray cd into its directory and execute sudo ./launcher from terminal. For Clash use ./cfw to launch the client.\033[0m"
