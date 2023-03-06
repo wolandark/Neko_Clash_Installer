@@ -45,8 +45,7 @@ do
     case $opt in
         "Nekoray")
             echo -e "\033[7;32mYou selected Nekoray\033[0m"
-            wget 
-            https://github.com/MatsuriDayo/nekoray/releases/download/2.17/nekoray-2.17-2023-02-25-linux64.zip -O nekoray.zip
+            wget https://github.com/MatsuriDayo/nekoray/releases/download/2.17/nekoray-2.17-2023-02-25-linux64.zip -O nekoray.zip
             unzip nekoray.zip
             break
             ;;
