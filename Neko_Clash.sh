@@ -75,11 +75,10 @@ if [[ -d clash ]]; then
     echo "Clash Launched"
 fi
 
-echo -e "\033[7;032mThe Script is done! You can now launch your client. For nekoray cd into its directory and execute sudo ./launcher from terminal. For Clash use ./cfw to launch the client.\033[0m"
-echo ''
-echo -e "\033[7;034mEnjoy Your Freedom\033[0m"
-echo ''
-echo -e "\033[7;1;33mI recommend getting your free servers from this repository\n\033[4;32mhttps://github.com/mahdibland/V2RayAggregator\033[0m"
-echo ''
+echo -e "\033[7;032mThe Script is done! You can now launch your client. For nekoray cd into its directory and execute sudo ./launcher from terminal. For Clash use ./cfw to launch the client.\033[0m\n"
+echo -e "\033[7;034mEnjoy Your Freedom\033[0m\n"
+echo -e "\033[7;1;33mI recommend getting your free servers from this repository\n\033[4;32mhttps://github.com/mahdibland/V2RayAggregator\033[0m\n"
+echo -e "\033[1;36mTo get started, Use this subscription link\033[0m"
+echo -e "\033[7;1;35mhttps://raw.githubusercontent.com/mahdibland/ShadowsocksAggregator/master/Eternity.txt\033[0m\n"
 echo -e "\033[7;034mFor More Scripts and Goodies Visit My GitHub\033[0m"
 echo -e "\033[4;32mhttps://github.com/wolandark\033[0m"
