@@ -45,13 +45,13 @@ do
     case $opt in
         "Nekoray")
             echo -e "\033[7;32mYou selected Nekoray\033[0m"
-            wget https://github.com/MatsuriDayo/nekoray/releases/download/2.17/nekoray-2.17-2023-02-25-linux64.zip -O nekoray.zip
+            wget https://github.com/MatsuriDayo/nekoray/releases/download/2.20/nekoray-2.20-2023-03-25-linux64.zip -O nekoray.zip
             unzip nekoray.zip
             break
             ;;
         "Clash")
             echo -e "\033[7;32mYou selected Clash\033[0m"
-            wget https://github.com/Fndroid/clash_for_windows_pkg/releases/download/0.20.16/Clash.for.Windows-0.20.16-x64-linux.tar.gz -O cfw.tar.gz 
+            wget https://github.com/Fndroid/clash_for_windows_pkg/releases/download/0.20.19/Clash.for.Windows-0.20.19-x64-linux.tar.gz -O cfw.tar.gz 
             mkdir clash && tar -xzvf cfw.tar.gz -C clash --strip-components=1
             break
             ;;
