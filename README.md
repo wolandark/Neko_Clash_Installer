@@ -21,6 +21,6 @@ This script will install [unzip]() and [wget]() as dependencies. <br>
 It will do so on MOST Arch-based and Debian-based distros and should work as well in Fedora.<br>
 If your distribution is not detected, you can add it to the array or open a pull request.<br>
 # Demo
-![demo](https://github.com/wolandark/Neko_Clash_Installer/blob/main/demo/Nekoray.gif)
+https://user-images.githubusercontent.com/107309764/229797015-dc9bdf68-4584-4090-ba6f-910533b8b1a5.mp4
 
 # Enjoy
